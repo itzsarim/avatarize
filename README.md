@@ -1,6 +1,6 @@
 # What is this?
 
-This package will avatarize any element
+This package will avatarize any element with class='avatarize'
 
 # Installation
 
