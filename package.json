@@ -1,0 +1,25 @@
+{
+  "name": "avatarize",
+  "version": "1.0.0",
+  "description": "Avatarize any element",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itzsarim/avatarize.git"
+  },
+  "keywords": [
+    "avatar",
+    "image",
+    "professional",
+    "modern"
+  ],
+  "author": "Sarim Zaidi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itzsarim/avatarize/issues"
+  },
+  "homepage": "https://github.com/itzsarim/avatarize#readme"
+}

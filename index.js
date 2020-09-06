@@ -1,16 +1,25 @@
 function avatarize(options) {
     let images = document.querySelectorAll('.avatarize');
 
-    if(options && options.shadow_type === 'hard') {
-        options.shadow_type = '0px';
-    } else {
-        options.shadow_type = '15px';
+    if(options) {
+        if(options.shape === 'round') {
+            options.shape = '50%';
+        } else {
+            options.shape = '15%';
+        }
     }
 
     images.forEach(image => {
-        image.getElementsByClassName.boxShadow = `10px 10px ${options.shadow_type} 10px rgba(0, 0, 0, 0.12)`;
-        if(image.padding) {
-            image.style.padding = '1em';
+        if(options.shadow) {
+            image.style.boxShadow = `0px 0px 10px 1px rgba(0, 0, 0, 0.12)`;
+        }
+        
+        if(options.color) {
+            image.style.border = `solid 1px ${options.color}`;
+        }
+
+        if(options.shape) {
+            image.style.borderRadius = `${options.shape}`;
         }
     })
 }

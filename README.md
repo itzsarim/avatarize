@@ -12,8 +12,9 @@ This package will avatarize any element
 import {avatarize} from avatarize;
 
 avatarize({
-    shadow_type: 'hard',
-    padding: true
+    shape: 'round',
+    color: 'red',
+    shadow: true
 })
 ```
 
@@ -21,5 +22,6 @@ avatarize({
 
 Avatarize supports following options:
 
-* *shadow_type* - _hard | soft_ (Defaults to soft)
-* *padding* - _boolean_ (Defaults to false)
+* *shape* - _round | square_ (Defaults to square)
+* *color* - _color value_ (#fff000 or yellow)
+* *shadow* - _boolean_ (Defaults to false)
