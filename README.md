@@ -17,7 +17,7 @@ avatarize({
 })
 ```
 
-# Oprions
+# Options
 
 Avatarize supports following options:
 
